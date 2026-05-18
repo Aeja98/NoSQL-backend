@@ -4,15 +4,7 @@ Detta repository innehåller kod för ett enklare REST API byggt med Node.js och
 
 Grundläggande funktionalitet för CRUD (Create, Read, Update, Delete) är implementerad.
 
-## Länk
-
-En liveversion av API:et finns tillgänglig på följande URL:
-
 `LÄGG TILL DIN RENDER-LÄNK HÄR`
-
-Exempel:
-
-`https://din-api.onrender.com/api/workexp`
 
 ## Installation och databas
 
@@ -26,8 +18,10 @@ npm install
 
 Skapa sedan en .env-fil i projektets rotmapp och lägg till följande variabler:
 
+```bash
 PORT=3000
 DATABASE_URL=mongodb+srv://USERNAME:PASSWORD@CLUSTER_URL/workexperience?retryWrites=true&w=majority
+```
 
 Starta projektet lokalt med:
 
