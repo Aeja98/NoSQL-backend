@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
-const WorkExperience = require("../models/WorkExperience");
+const WorkExperience = require("../models/workExperience");
 
 // Helper function for validating work experience input
 function validateWorkExperience(data) {
